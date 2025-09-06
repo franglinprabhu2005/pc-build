@@ -84,8 +84,7 @@ brochure_text = load_pdf_from_url(pdf_url)
 st.title("💻 TECHSPARK WORLD PC BUILD ASSISTANT")
 
 st.markdown("""
-Ask me about **PC builds, components, and recommendations**  
-👉 I will answer **first in text, then speak format ** 😎
+My Name Is SARO ,I am a PC build Assistant BOT i Guide how to make pc in your work Based 
 """)
 
 # ------------------ Chat History ------------------
