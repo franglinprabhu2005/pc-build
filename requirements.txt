@@ -1,8 +1,4 @@
 streamlit
 google-generativeai
-PyPDF2
+pypdf2
 requests
-speechrecognition
-pyaudio
-gtts
-pydub
