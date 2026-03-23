@@ -74,7 +74,7 @@ def load_pdf_from_url(pdf_url):
 # Gemini setup
 api_key = "AIzaSyDzu98r7f8GNpn4x-Ye-Hyeoesedo2N8rw"  # 🔑 replace with your Gemini API Key
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-1.5-flash-latest")
 
 # PDF with PC info
 pdf_url = "https://drive.google.com/uc?export=download&id=1wbSL6iBTGQDIM-FJSA6X8KfS-KUOToiD"
