@@ -72,7 +72,7 @@ def load_pdf_from_url(pdf_url):
         return ""
 
 # Gemini setup
-api_key = "AIzaSyA3b_O5MTXOS22ApXcwR9XkpoFc0NlU9uk"  # 🔑 replace with your Gemini API Key
+api_key = "AIzaSyB9UP8uZHHj7gb-9RwAv2OuvUlWS8yW-i0"  # 🔑 replace with your Gemini API Key
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-2.0-flash")
 
