@@ -1,4 +1,4 @@
-import streamlit as st
+cimport streamlit as st
 import google.generativeai as genai
 from PyPDF2 import PdfReader
 import requests
@@ -72,7 +72,7 @@ def load_pdf_from_url(pdf_url):
         return ""
 
 # Gemini setup
-api_key = "AIzaSyBoGkf3vaZuMWmegTLM8lmVpvvoSOFYLYU"  # 🔑 replace with your Gemini API Key
+api_key = "AIzaSyA3b_O5MTXOS22ApXcwR9XkpoFc0NlU9uk"  # 🔑 replace with your Gemini API Key
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-2.0-flash")
 
